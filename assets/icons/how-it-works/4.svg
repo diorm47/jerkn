@@ -1,0 +1,36 @@
+<svg width="61.234070" height="61.357910" viewBox="0 0 61.2341 61.3579" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_52_390_dd" x="0.000000" y="0.000000" width="61.234070" height="61.357910" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feGaussianBlur in="BackgroundImage" stdDeviation="8"/>
+			<feComposite in2="SourceAlpha" operator="in" result="effect_backgroundBlur_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_backgroundBlur_1" result="shape"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="0"/>
+			<feGaussianBlur stdDeviation="3.33333"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.94902 0 0 0 0 0.94902 0 0 0 0 0.94902 0 0 0 0.7 0"/>
+			<feBlend mode="normal" in2="shape" result="effect_innerShadow_2"/>
+		</filter>
+		<clipPath id="clip52_392">
+			<rect id="Frame" rx="-0.032227" width="32.935547" height="32.935547" transform="translate(14.532227 14.032227)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<radialGradient gradientTransform="translate(30.617 30.6789) rotate(180) scale(30.6789 30.617)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_52_390_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#E3E3E3"/>
+			<stop offset="1.000000" stop-color="#FFFFFF"/>
+		</radialGradient>
+	</defs>
+	<g filter="url(#filter_52_390_dd)">
+		<rect id="Frame" rx="18.119318" width="59.472706" height="59.596462" transform="translate(0.880682 0.880682)" fill="url(#paint_radial_52_390_0)" fill-opacity="0.800000"/>
+		<rect id="Frame" rx="-0.032227" width="32.935547" height="32.935547" transform="translate(14.532227 14.032227)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip52_392)">
+			<path id="Vector" d="M43.63 43.55L42.66 43.55M41.69 43.55L14.98 43.55L14.98 20.83M14.98 19.86L14.98 18.41C14.98 17.88 15.41 17.44 15.95 17.44L30.03 17.44L32.93 19.38L46.04 19.38C46.58 19.38 47.01 19.81 47.01 20.34L47.01 43.55L44.59 43.55" stroke="#25272D" stroke-opacity="1.000000" stroke-width="0.966803" stroke-linejoin="round" stroke-linecap="round"/>
+			<path id="Vector" d="M18.85 20.34C18.85 20.88 18.41 21.31 17.88 21.31C17.34 21.31 16.91 20.88 16.91 20.34C16.91 19.81 17.34 19.38 17.88 19.38C18.41 19.38 18.85 19.81 18.85 20.34ZM26.58 20.34C26.58 20.88 26.15 21.31 25.61 21.31C25.08 21.31 24.65 20.88 24.65 20.34C24.65 19.81 25.08 19.38 25.61 19.38C26.15 19.38 26.58 19.81 26.58 20.34ZM22.71 20.34C22.71 20.88 22.28 21.31 21.75 21.31C21.21 21.31 20.78 20.88 20.78 20.34C20.78 19.81 21.21 19.38 21.75 19.38C22.28 19.38 22.71 19.81 22.71 20.34ZM14.98 23.24L47.01 23.24M44.59 21.31L45.56 21.31M42.66 21.31L43.63 21.31M27.84 30.52L27.84 36.27L22.86 39.15L17.88 36.27L17.88 30.52L22.86 27.64L27.84 30.52Z" stroke="#25272D" stroke-opacity="1.000000" stroke-width="0.966803" stroke-linejoin="round" stroke-linecap="round"/>
+			<path id="Vector" d="M17.88 30.52L22.86 33.4L27.84 30.52M22.86 39.15L22.86 33.4M32.03 37.99L44.59 37.99M39.28 37.99L39.28 35.09M33.48 37.99L33.48 36.54M35.41 37.99L35.41 35.09M37.34 37.99L37.34 34.12M43.14 37.99L43.14 33.15M41.21 37.99L41.21 34.12M32.51 28.8L32.51 30.74L44.11 30.74L44.11 28.8L32.51 28.8Z" stroke="#25272D" stroke-opacity="1.000000" stroke-width="0.966803" stroke-linejoin="round" stroke-linecap="round"/>
+		</g>
+	</g>
+	<rect id="Frame" rx="18.119318" width="59.472706" height="59.596462" transform="translate(0.880682 0.880682)" stroke="#CCCCCC" stroke-opacity="1.000000" stroke-width="1.761364"/>
+</svg>
