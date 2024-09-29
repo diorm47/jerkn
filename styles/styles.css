@@ -179,6 +179,7 @@ body {
 
 .tech_device {
   margin-top: -200px;
+  max-width: 700px;
 }
 .technology_int {
   position: relative;
