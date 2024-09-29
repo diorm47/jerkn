@@ -1157,10 +1157,22 @@ footer {
   .header_top {
     padding-bottom: 50px;
   }
- 
 }
 
 @media only screen and (max-width: 550px) {
+  .trans_bottom_card img {
+    transform: scale(0.7);
+  }
+  .trans_left_bottom img {
+    right: -282px;
+    bottom: -163px;
+  }
+  .trans_right_bottom img {
+    bottom: -50px;
+    right: -385px;
+    transform: scale(0.6);
+  }
+
   .header_title h1 {
     font-size: 60px;
     letter-spacing: normal;
@@ -1299,7 +1311,7 @@ footer {
   .decentrilized_text h2 {
     font-size: 30px;
   }
-  .decentrilized  img {
+  .decentrilized img {
     width: 100%;
   }
   .decentrilized_text {
