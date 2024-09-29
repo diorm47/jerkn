@@ -52,11 +52,20 @@
                 finance.
               </p>
             </div>
-            <img
-              class="header_img"
-              src="./assets/images/header-img.png"
-              alt=""
-            />
+            <div class="header_animation_wrapper">
+              <div class="header_animation">
+                <img
+                  class="header_animation_back"
+                  src="./assets/icons/header-11.PNG"
+                  alt=""
+                />
+                <img
+                  class="header_animation_anim"
+                  src="./assets/icons/header-22.PNG"
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
         </div>
       </header>
@@ -295,6 +304,7 @@
           </h2>
         </div>
         <div class="trans_top_card">
+   
           <div class="trans_card_text">
             <h4>Revolutionizing Genetic Research</h4>
             <h5>
@@ -1019,7 +1029,7 @@
               </div>
             </div>
           </div>
-          <img class="footer_img" src="./assets/images/footer-img.png" alt="">
+          <img class="footer_img" src="./assets/images/footer-img.png" alt="" />
           <div class="footer_bottom">
             <div class="footer_bottom_left">
               <h4>
@@ -1061,5 +1071,70 @@
         </div>
       </footer>
     </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  
+    <script>
+      // Настройка сцены, камеры и рендера
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(
+        75,
+        window.innerWidth / window.innerHeight,
+        0.9,
+        1000
+      );
+      const renderer = new THREE.WebGLRenderer();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      document.body.appendChild(renderer.domElement);
+  
+      // Загрузка 3D-модели в формате gltf
+      const loader = new THREE.GLTFLoader();
+      loader.load(
+        "./assets/3d/4.gltf",
+        function (gltf) {
+          const model = gltf.scene;
+          scene.add(model);
+          model.position.set(0, 0, 0); 
+        },
+        undefined,
+        function (error) {
+          console.error("An error happened", error);
+        }
+      );
+  
+      // Добавляем свет
+      const light = new THREE.DirectionalLight(0xffffff, 1);
+      light.position.set(115, 115, 115);
+      scene.add(light);
+  
+      // Позиция камеры
+      camera.position.z = 1.5;
+  
+      // Управление камерой с помощью OrbitControls
+      const controls = new THREE.OrbitControls(camera, renderer.domElement);
+      controls.enableDamping = true; // плавное вращение
+      controls.dampingFactor = 0.25;
+      controls.screenSpacePanning = false; // запрещает панорамирование по экрану
+      controls.maxPolarAngle = Math.PI / 2; // ограничение на вращение камеры по вертикали
+  
+      // Анимация
+      function animate() {
+        requestAnimationFrame(animate);
+  
+        // Обновление контролов, чтобы реагировать на взаимодействие
+        controls.update();
+  
+        renderer.render(scene, camera);
+      }
+      animate();
+  
+      // Обновляем размер рендера при изменении размера окна
+      window.addEventListener("resize", () => {
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+      });
+    </script> -->
   </body>
 </html>
