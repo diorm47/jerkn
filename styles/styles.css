@@ -10,7 +10,9 @@ body {
   font-family: "Sora", sans-serif;
   background: #fcfcfc;
 }
-
+.main_wrapper {
+  overflow: hidden;
+}
 .container {
   width: 100%;
   max-width: 1280px;
@@ -1154,9 +1156,7 @@ footer {
   .header_top {
     padding-bottom: 50px;
   }
-  .main_wrapper {
-    overflow: hidden;
-  }
+ 
 }
 
 @media only screen and (max-width: 550px) {
