@@ -178,8 +178,7 @@ body {
 }
 
 .tech_device {
-  margin-top: -200px;
-  max-width: 700px;
+  width: 600px;
 }
 .technology_int {
   position: relative;
@@ -330,21 +329,24 @@ body {
   margin: 0 auto;
 }
 .trans_top_card {
-  background: url(../assets/images/trans-top-card-bg.png);
-  background-size: cover;
-  /* background: #26272c; */
   position: relative;
-
+  background: #040a08;
   border-radius: 40px;
   padding-right: 64px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  padding: 97px 64px 97px 0;
+  justify-content: space-between;
+  overflow: hidden;
   margin-bottom: 32px;
+  height: 480px;
+}
+.trans_top_card_video {
+  height: 100%;
+  width: 70%;
 }
 .trans_top_card .trans_card_text {
   max-width: 521px;
+  
 }
 .trans_card_text h4 {
   color: rgb(255, 255, 255);
@@ -1046,6 +1048,19 @@ footer {
 }
 
 @media only screen and (max-width: 1100px) {
+  .trans_top_card {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+  }
+  .trans_top_card_video {
+    width: 100%;
+  }
+  .trans_top_card .trans_card_text {
+    max-width: 100%;
+  }
   .header_bottom {
     flex-direction: column;
     align-items: start;
@@ -1204,7 +1219,7 @@ footer {
   }
   .trans_top_card {
     padding: 20px;
-    padding-top: 150px;
+ padding-top: 0;
   }
   .trans_bottom_card {
     padding: 20px;
